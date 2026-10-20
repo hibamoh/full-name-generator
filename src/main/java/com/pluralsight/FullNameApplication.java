@@ -10,13 +10,13 @@ public class FullNameApplication {
         Scanner myScanner = new Scanner(System.in);
 
         System.out.println("what is your first name? ");
-        String firstName = myScanner.nextLine();
+        String firstName = myScanner.nextLine().trim();
 
         System.out.println("what is your middle name? ");
-        String middleName = myScanner.nextLine();
+        String middleName = myScanner.nextLine().trim();
 
         System.out.println("what is your last name? ");
-        String lastName = myScanner.nextLine();
+        String lastName = myScanner.nextLine().trim();
 
         System.out.println("your full name is: " + firstName + " " +  middleName + " " + lastName);
     }
